@@ -1,12 +1,21 @@
-# Take input values from user
-x = input("Enter Value of x:")
-y = input("Enter Value of y:")
+name = "Penguin"
+age = 15
+weight = 38.5
+is_Student = True
 
-# Swapping
-temp = x
-x = y
-y = temp
+print("Name", name)
+print("Datatype of name is ", type(name))
+print("age", age)
+print("Datatype of age is ", type(age))
+print("is_Student", is_Student)
+print("Datatype of is_Student is ", type(is_Student))
+print("weight :", weight)
+print("Datatype of weight is ", type(weight))
 
-# Displaying results after swapping
-print("value of x after swapping", x)
-print("value of y after swapping", y)
+print("\n After Typecasting....")
+age = str(age)
+print(age)
+print("Datatype of age is ", type(age))
+weight = int(weight)
+print(weight)
+print("Datatype of weight is ", type(weight))
